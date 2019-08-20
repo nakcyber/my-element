@@ -6,7 +6,7 @@
   },
   "scripts": {
     "generate-types": "gen-typescript-declarations --deleteExisting --outDir . --verify",
-    "prepare": "npm run generate-types"
+    "prepack": "npm run generate-types"
   },
   "devDependencies": {
     "@polymer/gen-typescript-declarations": "^1.6.2",
